@@ -1,0 +1,118 @@
+footer{
+  background: #F4F4F4;
+  margin-top: 68px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+h2{
+  font-family: $font-secondary;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+.phone_number,.mail{
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+.mail{
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.icon_container{
+  display: flex;
+  justify-content: center;
+}
+.icon_block{
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  &:hover{
+    transition: all 1s;
+    background: #efcb16;
+  }
+}
+.inst_block,.facebook_block,.twitter_block{
+  margin-right: 23px;
+}
+.copyright{
+  line-height: 26.56px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  font-size: 16px;
+  color: $black-default;
+}
+.description{
+  letter-spacing: 0.45px;
+}
+@media screen and (min-width: $md ){
+  h2{
+    font-family: $font-secondary;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 64px;
+  }
+  .phone_number,.mail{
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+  }
+  .mail{
+    margin-bottom: 51px;
+  }
+  .copyright{
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+  }
+  .copyright_container{
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: $lg ){
+  .footer_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .footer_description_container{
+    width: 400px;
+  }
+  .icon_container{
+    width: 269px;
+    margin-top: 50px;
+  }
+  .phone_number,.mail{
+    text-align: left;
+  }
+  .phone_number{
+    margin-top: 30px;
+  }
+  .copyright{
+    display: inline-block;
+  }
+  .copyright_container{
+    text-align: center;
+    margin-top: -10px;
+  }
+  .mail{
+    margin-bottom: 25px;
+  }
+  footer{
+    margin-top: 100px;
+  }
+  
+}

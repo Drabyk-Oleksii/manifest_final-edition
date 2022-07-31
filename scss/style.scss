@@ -1,0 +1,19 @@
+@import "variables/variables";
+@import "header";
+@import "main_blog";
+@import "main_latest_posts";
+@import "main_most_popular";
+@import "main_footer";
+@import "footer";
+body{
+  font-family: $font-primary;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.3em;
+}
+
+
+
+

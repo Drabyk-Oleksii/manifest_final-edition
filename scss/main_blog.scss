@@ -1,0 +1,205 @@
+.banner__hero{
+  margin-top: 60px;
+  background: url("../img/mobile_photo/mobile-bg.jpg") 0 0/cover no-repeat;
+  height: 500px;
+  width: 100%;
+}
+p{
+  font-size: 12px;
+}
+.banner__hero-description {
+  font-family: $font-secondary;
+  font-weight: 600;
+  line-height: 50px;
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  padding: 70px 10px;
+}
+.container_main{
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.blog_title{
+  text-align: center;
+  padding-top: 70px;
+}
+.title_blog{
+  font-family: $font-secondary;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0.05em;
+}
+.block_1{
+  width: 100%;
+}
+.technology{
+  font-size: $font-size-default;
+  line-height: 26.56px;
+  letter-spacing: 1.6px;
+  font-weight: 400;
+  color: #7B7B7B;
+  margin-top: 50px;
+}
+.date{
+  color: #7B7B7B;
+  font-family: $font-primary;
+  letter-spacing: 2.8px;
+  margin-top: 15px;
+  border: 1px solid white;
+}
+.description{
+  margin-top: 60px;
+  margin-bottom: 37px;
+  letter-spacing: 1px;
+  color: #565656;
+  font-family: $font-secondary;
+  font-size: $font-size-default;
+  line-height: 166%;
+  border: 1px solid white;
+}
+.block_2{
+  background: url("../img/mobile_photo/first_block.jpg")0 0/100% 100% no-repeat;
+  min-height: 195px;
+  height: 78vw;
+  width: 100%;
+}
+.block_4{
+  background: url("../img/mobile_photo/block_2.jpg")0 0/100% 100% no-repeat;
+  min-height: 195px;
+  height: 78vw;
+  width: 100%;
+}
+@media screen and (min-width: 768px ){
+  .banner__hero{
+    background: url("../img/tablet_photo/tablet-bg.jpg")0 0/cover no-repeat;
+    height: 320px;
+  }
+  .banner__hero-description {
+    padding: 30px 104px 0 34px;
+    font-size: 36px;
+  }
+  .blog_title{
+    text-align: left;
+  }
+  .container_main{
+    padding-left: 34px;
+    padding-right: 34px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .section_1{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .technology{
+    margin-top: 0px;
+  }
+  .section1_technology{
+    margin-bottom: -8px;
+  }
+  .block_2{
+    background: url("../img/tablet_photo/block_2.jpg")0 0/100% 100% no-repeat;
+    margin-right: 20px;
+  }
+  .block_1{
+    order: 2;
+  }
+  .block_4{
+    order: 3;
+    margin-left: 20px;
+    background: url("../img/tablet_photo/block_3.jpg")0 0/100% 100% no-repeat;
+  }
+  .block_1,.block_2,.block_3,.block_4{
+    margin-top: 50px;
+    width: 48%;
+    min-height: 280px;
+    height: 34vw;
+    overflow: hidden;
+  }
+  h3{
+    margin-bottom: 15px;
+    font-size: 23px;
+    line-height: 38.18px;
+  }
+  .section1_h3{
+    margin-top: 10px;
+  }
+  .section_2{
+    margin-bottom: -35px;
+  }
+}
+@media screen and (min-width: 1440px){
+  .banner__hero{
+    background: url("../img/desktop_photo/desktop-bg.jpg")0 0/100% 100% no-repeat;
+    height: 640px;
+  }
+  .banner__hero-description{
+    padding-top: 106px;
+    padding-left: 135px;
+    font-size: 48px;
+    width: 1000px;
+    line-height: 64px;
+  }
+  .container_main{
+    padding-left: 135px;
+    padding-right: 135px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .section_1{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .technology{
+    margin-top: 5px;
+  }
+  .block_2{
+    background: url("../img/desktop_photo/block_2.jpg")0 0/100% 100% no-repeat;
+    margin-right: 20px;
+    display: flex;
+  }
+  .block_1{
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 102px;
+  }
+  .block_3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .block_4{
+    order: 3;
+    margin-left: 20px;
+    background: url("../img/desktop_photo/block_3.jpg")0 0/100% 100% no-repeat;
+  }
+  .block_1,.block_2,.block_3,.block_4{
+    margin-top: 50px;
+    width: 48%;
+    height: 470px;
+    }
+  h3{
+    width: 369px;
+  }
+  .description{
+    width: 470px;
+    letter-spacing: 0.05em;
+  }
+  .banner__hero-description{
+    padding-top: 141px
+  }
+  .blog_title{
+    margin-top: 20px;
+  }
+  .technology{
+    margin-top: 20px;
+  }
+}
